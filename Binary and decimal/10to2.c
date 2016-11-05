@@ -21,16 +21,12 @@ int main (void){
 		Decimal_binary /= 10;
 	}
 	
-	Decimal_binary = Decimal_number;								//下面for循环的等价版本
+	Decimal_binary = Decimal_number;
 	while(Decimal_binary){
 		Decimal_binary /=2;
 		SUM++;
 		i++;
 	}
-	/*for(Decimal_binary = Decimal_number;Decimal_binary > 0;i++){	//计算转换为二进制位的位数
-		Decimal_binary /= 2;
-		SUM++;
-	}*/
 	
 	int Binary_number [i];
 	
